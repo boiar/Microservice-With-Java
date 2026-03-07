@@ -1,4 +1,4 @@
-package org.boiar.ecommerce.customer.entity;
+package org.boiar.customer.entity;
 
 import lombok.*;
 import org.springframework.data.annotation.Id;

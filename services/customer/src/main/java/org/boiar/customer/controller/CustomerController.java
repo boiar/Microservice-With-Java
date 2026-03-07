@@ -1,11 +1,11 @@
-package org.boiar.ecommerce.customer.controller;
+package org.boiar.customer.controller;
 
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
-import org.boiar.ecommerce.customer.request.UpdateCustomerRequest;
-import org.boiar.ecommerce.customer.response.GetCustomerResponse;
-import org.boiar.ecommerce.customer.request.CreateCustomerRequest;
-import org.boiar.ecommerce.customer.service.CustomerService;
+import org.boiar.customer.request.UpdateCustomerRequest;
+import org.boiar.customer.response.GetCustomerResponse;
+import org.boiar.customer.request.CreateCustomerRequest;
+import org.boiar.customer.service.CustomerService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,4 +1,4 @@
-package org.boiar.ecommerce.customer.common;
+package org.boiar.customer.handler;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;

@@ -1,4 +1,4 @@
-package org.boiar.ecommerce.customer.exception;
+package org.boiar.customer.exception;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;

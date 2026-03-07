@@ -1,9 +1,11 @@
-package org.boiar.ecommerce.customer.request;
+package org.boiar.customer.request;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotNull;
+import org.boiar.customer.entity.Address;
 
-public record UpdateCustomerRequest (
+public record CreateCustomerRequest(
+
         @NotNull(message = "Customer first name is required")
         String firstName,
 
@@ -12,5 +14,7 @@ public record UpdateCustomerRequest (
 
         @NotNull(message = "Customer email name is required")
         @Email(message = "Customer email is not a valid email address")
-        String email
-){}
+        String email,
+
+        Address address
+) {}

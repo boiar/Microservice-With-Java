@@ -1,9 +1,9 @@
-package org.boiar.ecommerce.customer.mapper;
+package org.boiar.customer.mapper;
 
-import org.boiar.ecommerce.customer.request.UpdateCustomerRequest;
-import org.boiar.ecommerce.customer.entity.Customer;
-import org.boiar.ecommerce.customer.request.CreateCustomerRequest;
-import org.boiar.ecommerce.customer.response.GetCustomerResponse;
+import org.boiar.customer.request.UpdateCustomerRequest;
+import org.boiar.customer.entity.Customer;
+import org.boiar.customer.request.CreateCustomerRequest;
+import org.boiar.customer.response.GetCustomerResponse;
 import org.springframework.stereotype.Service;
 
 @Service

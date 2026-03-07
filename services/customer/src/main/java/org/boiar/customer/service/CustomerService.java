@@ -1,11 +1,11 @@
-package org.boiar.ecommerce.customer.service;
+package org.boiar.customer.service;
 
 import lombok.RequiredArgsConstructor;
-import org.boiar.ecommerce.customer.exception.CustomerNotFoundException;
-import org.boiar.ecommerce.customer.mapper.CustomerMapper;
-import org.boiar.ecommerce.customer.request.CreateCustomerRequest;
-import org.boiar.ecommerce.customer.request.UpdateCustomerRequest;
-import org.boiar.ecommerce.customer.response.GetCustomerResponse;
+import org.boiar.customer.exception.CustomerNotFoundException;
+import org.boiar.customer.mapper.CustomerMapper;
+import org.boiar.customer.request.CreateCustomerRequest;
+import org.boiar.customer.request.UpdateCustomerRequest;
+import org.boiar.customer.response.GetCustomerResponse;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

@@ -1,5 +1,5 @@
-package org.boiar.ecommerce.customer.response;
-import org.boiar.ecommerce.customer.entity.Address;
+package org.boiar.customer.response;
+import org.boiar.customer.entity.Address;
 
 public record GetCustomerResponse (
         String Id,
