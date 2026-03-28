@@ -47,6 +47,8 @@ services:
     environment:
       - MONGO_INITDB_ROOT_USERNAME=user
       - MONGO_INITDB_ROOT_PASSWORD=password
+    networks:
+      - ms-net
 
   mongo-express:
     image: mongo-express

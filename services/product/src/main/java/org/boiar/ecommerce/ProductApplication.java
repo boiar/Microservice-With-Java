@@ -1,4 +1,4 @@
-package org.boiar.product;
+package org.boiar.ecommerce;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

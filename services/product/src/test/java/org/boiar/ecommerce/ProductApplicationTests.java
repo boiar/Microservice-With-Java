@@ -1,4 +1,4 @@
-package org.boiar.product;
+package org.boiar.ecommerce;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
